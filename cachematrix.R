@@ -44,6 +44,7 @@ cacheSolve <- function(x, ...) {
 ## the solve function in R. For example, if X is a square invertible matrix, 
 ## then solve(X) returns its inverse.
 
-a <- makeCacheMatrix()
-a$set(matrix(1:4,2,2))
-cacheSolve(a)
+## Test commands
+## a <- makeCacheMatrix()
+## a$set(matrix(1:4,2,2))
+## cacheSolve(a)
